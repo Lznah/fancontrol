@@ -1,0 +1,24 @@
+{
+  "name": "fancontrol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "export NODE_ENV=test || SET NODE_ENV=\"test\" && mocha ./tests/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lznah/fancontrol.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lznah/fancontrol/issues"
+  },
+  "homepage": "https://github.com/Lznah/fancontrol#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "onoff": "^3.2.1"
+  },
+  "devDependencies": {}
+}
